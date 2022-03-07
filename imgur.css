@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    background-color: #2e3035;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container {
+    background-image: url("background-img.png");
+    height: 700px;
+    border: 5px solid transparent;
+
+}
+
+.header {
+    margin-top: -1px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    padding-top: 5px 0 5px 0;
+    position: fixed;
+    background-image: url("background-img.png");
+    border: 1px solid transparent;
+}
+
+#logo {
+    width: 90px;
+    height: 30px;
+    margin: 1% 0 0 1%;
+    cursor: pointer;
+}
+
+.postBtn, .addFreeBtn, #prevBtn, #nextBtn {
+    height: 40px;
+    display: flex;
+    width: 5%;
+    padding: 6px 10px 0px 5px;
+    margin: 0.8% 0 0 1%;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: #1bb76e;
+    border: none;
+    border-radius: 4px;
+}
+
+.postBtn:hover, .addFreeBtn:hover, #prevBtn:hover, #nextBtn:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.postBtn img {
+    height: 25px;
+    width: 23%;
+    padding: 0;
+}
+
+.postBtn div {
+    padding: 6px 0 0 8px;
+    /* background-color: #fff; */
+}
+
+.postBtn .add{
+background-color: #fff;
+border-radius: 20%;
+}
+
+
+#searchBox {
+    display: flex;
+    position: absolute;
+    margin: 0.8% 0 0 30%;
+    width: 550px;
+}
+
+#searchBox input {
+    width: 550px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: hsla(0,0%,100%,.25);
+    outline: 0 none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+#searchBox img {
+    height: 22px;
+    position: absolute;
+    margin: 1% 0 0 93%;
+    color: white;
+}
+
+.addFreeBtn, #prevBtn, #nextBtn {
+    margin-left: 56%;
+    padding: 10px;
+    padding-top: 12px;
+    background-color: #6432f9;
+}
+
+#iconsBox {
+    padding: 0px;
+    height: 25px;
+    margin: 12px 0 0 20px;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+    border-radius: 40%;
+    padding: 0 12px 0 12px;
+}
+
+.icons:hover {
+    cursor: pointer;
+    opacity: 40%;
+}
+
+#iconsBox > img:nth-child(4) {
+    height: 35px;
+    width: 35px;
+}
+
+
+#main{
+    /* border: 2px solid red; */
+    width:50% ;
+    cursor: pointer;
+
+}
+
+#imgDiv{
+    /* border: 2px solid green; */
+    width: 90%;
+    height: 70%;
+
+}
+
+#desDiv{
+    /* border: 1px solid yellow; */
+    width: 70%;
+    margin: auto;
+}
+
+#gifContain{
+    margin-top: 20vh;
+    border:5px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 12px;
+   
+}
